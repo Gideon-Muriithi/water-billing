@@ -1,0 +1,97 @@
+@media (max-width:900px) {
+   .main-header {
+       display: none;
+   }
+}
+
+ .main-header {
+     box-shadow: none;
+   }
+
+@media (min-width:900px) {
+   .col9 {
+       padding: 0%;
+   }
+
+   footer {
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    overflow: hidden;
+}
+}
+
+/* body{
+    font-family: Times New Roman, Times;
+    background-color: rgb(234, 241, 243);
+} */
+
+.carousel-item {
+    transition-duration: 30s;
+}
+
+ /* .main-header {
+   } */
+
+html, body {
+    height: 100%;
+    top: 0;
+    overflow-x: hidden; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(241, 235, 235);
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    margin-bottom: 20px;
+}
+
+.main-sidebar {
+    background-color: rgb(51, 51, 51);
+}
+
+hr {
+    background-color: rgb(129, 128, 128);
+    height: 1px;
+    border: 0;
+}
+
+ aside {
+    height: 100vh;
+    overflow-y: hidden; 
+
+}
+.nav-item {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* .test {
+    background-color: red;
+} */
+
+.nav {
+    display: block;
+}
+
+.main-footer {
+    text-align: center;
+}
+
+.btn-navbar {
+    border: none;
+}
+
+.table {
+    width: 100%;
+    overflow: scroll;
+    text-align: center;
+}
+
+.footer_area {
+    background-color: rgb(137, 137, 235);
+}

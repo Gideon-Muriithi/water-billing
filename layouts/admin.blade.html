@@ -1,0 +1,34 @@
+
+<div class="modal fade" id="edit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Edit Customer Details</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>';
+            </div>
+            <form action="" method="post">
+                <div class="modal-body">
+                    <input type="hidden" name="customers_id" id="cus_id_1" value="">
+                    <div class="modal-body">
+                        <label for='AccountNumber'>Account Number</label>
+                        <input type='number' class='form control' name='AccountNumber' id='AccountNumber'
+                            placeholder='$account_num'>
+                    </div>
+                    <div class="modal-body">
+                        <label for="Account_Name">Account Name</label>';
+                        <input type="text" class="form control" name="AccountName" id="Account_Name">';
+                    </div>
+                    <div class="modal-body">
+                        <label for="PhoneNumber">Phone Number</label>
+                        <input type="number" class="form control" name="PhoneNumber" id="PhoneNumber">';
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <a href=""><button type="submit" class="btn btn-primary">Save Changes</button></a>
+                    </div>
+            </form>
+        </div>
+    </div>
+</div>
